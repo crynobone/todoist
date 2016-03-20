@@ -17,7 +17,7 @@ class UserTenantCreateTasksTable extends Migration
      */
     public function up($id, Model $model)
     {
-        Schema::create("user_{$id}_tasks", function (Blueprint $table) {
+        Schema::create("tasks", function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->timestamps();
@@ -37,6 +37,6 @@ class UserTenantCreateTasksTable extends Migration
      */
     public function down($id, Model $model)
     {
-        Schema::drop("user_{$id}_tasks");
+        Schema::drop("tasks");
     }
 }
