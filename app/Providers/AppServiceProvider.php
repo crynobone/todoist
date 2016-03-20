@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\User;
 use Illuminate\Support\ServiceProvider;
 use Orchestra\Extension\Traits\DomainAwareTrait;
 
@@ -30,6 +31,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // Ensure `orchestra.user` is aliased to App\User model.
+        $this->app->alias(User::class, 'orchestra.user');
     }
 }
