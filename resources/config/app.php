@@ -171,6 +171,8 @@ return [
          * Orchestra Platform Optional Service Providers...
          */
         Orchestra\Installation\InstallerServiceProvider::class,
+        Orchestra\Tenanti\TenantiServiceProvider::class,
+        Orchestra\Tenanti\CommandServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -239,6 +241,7 @@ return [
         'Validator'  => Illuminate\Support\Facades\Validator::class,
         'View'       => Illuminate\Support\Facades\View::class,
 
+        'Tenanti' => Orchestra\Support\Facades\Tenanti::class,
     ],
 
 ];

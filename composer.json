@@ -9,7 +9,8 @@
         "php": ">=5.5.9",
         "orchestra/foundation": "3.2.*",
         "orchestra/installer": "~3.2",
-        "orchestra/control": "~3.2"
+        "orchestra/control": "~3.2",
+        "orchestra/tenanti": "~3.2"
     },
     "require-dev": {
         "orchestra/studio": "~3.2",

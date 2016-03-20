@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "100445f9d737a26d298875542e232af6",
-    "content-hash": "cf2f8065df135b6a9f22b0a7fbbe2384",
+    "hash": "ac39bfc989d23533288728ba1730d311",
+    "content-hash": "ea334c8211caacf74815e7d608d09c00",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1871,6 +1871,62 @@
                 "validator"
             ],
             "time": "2016-03-17 10:25:12"
+        },
+        {
+            "name": "orchestra/tenanti",
+            "version": "v3.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/tenanti.git",
+                "reference": "d33613771439b8d6a0cbbdd08e0217091df628db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/tenanti/zipball/d33613771439b8d6a0cbbdd08e0217091df628db",
+                "reference": "d33613771439b8d6a0cbbdd08e0217091df628db",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/filesystem": "~5.2.0",
+                "orchestra/support": "~3.2.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "laravel/framework": "~5.2.0",
+                "mockery/mockery": "^0.9.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Orchestra\\Tenanti\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Tenant based Database Schema Manager for Laravel",
+            "keywords": [
+                "laravel",
+                "migration",
+                "multi-tenant",
+                "orchestra-platform",
+                "orchestral",
+                "schema"
+            ],
+            "time": "2016-03-18 01:29:03"
         },
         {
             "name": "orchestra/translation",
