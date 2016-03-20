@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\User;
+use Orchestra\Support\Facades\Tenanti;
 use Illuminate\Support\ServiceProvider;
 use Orchestra\Extension\Traits\DomainAwareTrait;
 
