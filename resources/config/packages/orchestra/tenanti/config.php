@@ -27,6 +27,7 @@ return [
     'drivers' => [
         'user' => [
             'model' => App\User::class,
+            'migration' => 'tenant_migrations',
             'path'  => database_path('tenant/users'),
         ],
     ],
