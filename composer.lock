@@ -1878,12 +1878,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/tenanti.git",
-                "reference": "ad6a1e77e74a93633eeecf3aa2c55f2d352ca29f"
+                "reference": "2a8dc500627c0c0afd818912d274ca2849c47f1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/tenanti/zipball/ad6a1e77e74a93633eeecf3aa2c55f2d352ca29f",
-                "reference": "ad6a1e77e74a93633eeecf3aa2c55f2d352ca29f",
+                "url": "https://api.github.com/repos/orchestral/tenanti/zipball/2a8dc500627c0c0afd818912d274ca2849c47f1f",
+                "reference": "2a8dc500627c0c0afd818912d274ca2849c47f1f",
                 "shasum": ""
             },
             "require": {
@@ -1926,7 +1926,7 @@
                 "orchestral",
                 "schema"
             ],
-            "time": "2016-03-20 14:42:42"
+            "time": "2016-03-20 16:39:44"
         },
         {
             "name": "orchestra/translation",
