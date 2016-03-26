@@ -7,9 +7,10 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "orchestra/foundation": "3.2.*",
+        "orchestra/foundation": "~3.2.6",
         "orchestra/installer": "~3.2",
-        "orchestra/control": "~3.2"
+        "orchestra/control": "~3.2",
+        "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
         "orchestra/studio": "~3.2",
@@ -49,5 +50,5 @@
         "preferred-install": "dist"
     },
     "prefer-stable": true,
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
