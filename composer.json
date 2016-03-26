@@ -7,10 +7,11 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "orchestra/foundation": "3.2.*",
+        "orchestra/foundation": "~3.2.6",
         "orchestra/installer": "~3.2",
         "orchestra/control": "~3.2",
-        "orchestra/tenanti": "~3.2.4"
+        "orchestra/tenanti": "~3.2.4",
+        "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
         "orchestra/studio": "~3.2",

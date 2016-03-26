@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b4da9a3ee48a90f9ff9d8c7e77b0e9e1",
-    "content-hash": "56e5422c9507c1f749b80b9b769e888d",
+    "hash": "cd9239685f74bd89b35e5f04771d8282",
+    "content-hash": "0039fe2be0a329b294e7b553e6dafd68",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -63,16 +63,16 @@
         },
         {
             "name": "danielstjules/stringy",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielstjules/Stringy.git",
-                "reference": "5554477962a430cc5c79737ffa0fe3cb07f50d66"
+                "reference": "bd90918858ae079e34192710946449ed6c0bf795"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danielstjules/Stringy/zipball/5554477962a430cc5c79737ffa0fe3cb07f50d66",
-                "reference": "5554477962a430cc5c79737ffa0fe3cb07f50d66",
+                "url": "https://api.github.com/repos/danielstjules/Stringy/zipball/bd90918858ae079e34192710946449ed6c0bf795",
+                "reference": "bd90918858ae079e34192710946449ed6c0bf795",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,7 @@
                 "utility",
                 "utils"
             ],
-            "time": "2016-03-20 00:33:13"
+            "time": "2016-03-21 20:26:21"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -216,6 +216,177 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "d094e337976dff9d8e2424e8485872194e768662"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d094e337976dff9d8e2424e8485872194e768662",
+                "reference": "d094e337976dff9d8e2424e8485872194e768662",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "~1.0",
+                "guzzlehttp/psr7": "~1.1",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.0",
+                "psr/log": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2016-03-21 20:02:09"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "bb9024c526b22f3fe6ae55a561fd70653d470aa8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/bb9024c526b22f3fe6ae55a561fd70653d470aa8",
+                "reference": "bb9024c526b22f3fe6ae55a561fd70653d470aa8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-03-08 01:15:46"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "2e89629ff057ebb49492ba08e6995d3a6a80021b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/2e89629ff057ebb49492ba08e6995d3a6a80021b",
+                "reference": "2e89629ff057ebb49492ba08e6995d3a6a80021b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "PSR-7 message implementation",
+            "keywords": [
+                "http",
+                "message",
+                "stream",
+                "uri"
+            ],
+            "time": "2016-02-18 21:54:00"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -364,16 +535,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.2.23",
+            "version": "v5.2.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "87c090845f135ca94eba903f1c8462e60e3a6e36"
+                "reference": "b73ac62506c5c2bd49d87fcb1089f7759431e173"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/87c090845f135ca94eba903f1c8462e60e3a6e36",
-                "reference": "87c090845f135ca94eba903f1c8462e60e3a6e36",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/b73ac62506c5c2bd49d87fcb1089f7759431e173",
+                "reference": "b73ac62506c5c2bd49d87fcb1089f7759431e173",
                 "shasum": ""
             },
             "require": {
@@ -386,7 +557,7 @@
                 "monolog/monolog": "~1.11",
                 "mtdowling/cron-expression": "~1.0",
                 "nesbot/carbon": "~1.20",
-                "paragonie/random_compat": "~1.1",
+                "paragonie/random_compat": "~1.4",
                 "php": ">=5.5.9",
                 "psy/psysh": "0.7.*",
                 "swiftmailer/swiftmailer": "~5.1",
@@ -488,7 +659,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2016-03-14 14:22:33"
+            "time": "2016-03-25 17:12:52"
         },
         {
             "name": "laravie/html",
@@ -1173,34 +1344,34 @@
         },
         {
             "name": "orchestra/foundation",
-            "version": "v3.2.5",
+            "version": "v3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/foundation.git",
-                "reference": "1483d308cdb9b40e60a62ac3e070c1b4f2428c68"
+                "reference": "95fd82f52b0e5a5fa28d1a86b7fe78b2ebecfff7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/foundation/zipball/1483d308cdb9b40e60a62ac3e070c1b4f2428c68",
-                "reference": "1483d308cdb9b40e60a62ac3e070c1b4f2428c68",
+                "url": "https://api.github.com/repos/orchestral/foundation/zipball/95fd82f52b0e5a5fa28d1a86b7fe78b2ebecfff7",
+                "reference": "95fd82f52b0e5a5fa28d1a86b7fe78b2ebecfff7",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.2.13",
+                "laravel/framework": "~5.2.25",
                 "laravie/html": "~5.2.1",
                 "orchestra/asset": "~3.2.0",
-                "orchestra/auth": "~3.2.2",
+                "orchestra/auth": "~3.2.5",
                 "orchestra/contracts": "~3.2.1",
                 "orchestra/extension": "~3.2.0",
                 "orchestra/html": "~3.2.1",
-                "orchestra/kernel": "~3.2.0",
-                "orchestra/memory": "~3.2.2",
+                "orchestra/kernel": "~3.2.2",
+                "orchestra/memory": "~3.2.4",
                 "orchestra/messages": "~3.2.0",
                 "orchestra/model": "~3.2.0",
-                "orchestra/notifier": "~3.2.2",
+                "orchestra/notifier": "~3.2.3",
                 "orchestra/optimize": "~3.2.0",
                 "orchestra/publisher": "~3.2.0",
-                "orchestra/support": "~3.2.0",
+                "orchestra/support": "~3.2.3",
                 "orchestra/translation": "~3.2.0",
                 "orchestra/view": "~3.2.0",
                 "orchestra/widget": "~3.2.0",
@@ -1253,7 +1424,7 @@
                 "orchestral",
                 "user-management"
             ],
-            "time": "2016-02-13 01:10:28"
+            "time": "2016-03-26 06:05:36"
         },
         {
             "name": "orchestra/html",
@@ -1320,16 +1491,16 @@
         },
         {
             "name": "orchestra/installer",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/installer.git",
-                "reference": "5edc9a813fdbbc39d301a4ea29b9adb379a6565c"
+                "reference": "16acd182dd3f508162598511a346b2abba060eb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/installer/zipball/5edc9a813fdbbc39d301a4ea29b9adb379a6565c",
-                "reference": "5edc9a813fdbbc39d301a4ea29b9adb379a6565c",
+                "url": "https://api.github.com/repos/orchestral/installer/zipball/16acd182dd3f508162598511a346b2abba060eb4",
+                "reference": "16acd182dd3f508162598511a346b2abba060eb4",
                 "shasum": ""
             },
             "require": {
@@ -1371,7 +1542,7 @@
                 "orchestra-platform",
                 "orchestral"
             ],
-            "time": "2016-03-12 03:29:41"
+            "time": "2016-03-21 01:17:25"
         },
         {
             "name": "orchestra/kernel",
@@ -1874,16 +2045,16 @@
         },
         {
             "name": "orchestra/tenanti",
-            "version": "3.2.x-dev",
+            "version": "v3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/tenanti.git",
-                "reference": "2a8dc500627c0c0afd818912d274ca2849c47f1f"
+                "reference": "130e51e8f5af1e96511c97e800f6aac45345006c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/tenanti/zipball/2a8dc500627c0c0afd818912d274ca2849c47f1f",
-                "reference": "2a8dc500627c0c0afd818912d274ca2849c47f1f",
+                "url": "https://api.github.com/repos/orchestral/tenanti/zipball/130e51e8f5af1e96511c97e800f6aac45345006c",
+                "reference": "130e51e8f5af1e96511c97e800f6aac45345006c",
                 "shasum": ""
             },
             "require": {
@@ -1926,7 +2097,7 @@
                 "orchestral",
                 "schema"
             ],
-            "time": "2016-03-20 16:39:44"
+            "time": "2016-03-21 12:13:22"
         },
         {
             "name": "orchestra/translation",
@@ -2204,6 +2375,55 @@
                 "redis"
             ],
             "time": "2015-07-30 18:34:15"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "reference": "85d63699f0dbedb190bbd4b0d2b9dc707ea4c298",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2015-05-04 20:22:00"
         },
         {
             "name": "psr/log",
@@ -3605,16 +3825,16 @@
         },
         {
             "name": "orchestra/studio",
-            "version": "v3.2.2",
+            "version": "v3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/studio.git",
-                "reference": "2fdae165191ac49f6cc0c57c07398fc5af72db46"
+                "reference": "eac581c434308111db183823b4d56324ec1ffac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/studio/zipball/2fdae165191ac49f6cc0c57c07398fc5af72db46",
-                "reference": "2fdae165191ac49f6cc0c57c07398fc5af72db46",
+                "url": "https://api.github.com/repos/orchestral/studio/zipball/eac581c434308111db183823b4d56324ec1ffac7",
+                "reference": "eac581c434308111db183823b4d56324ec1ffac7",
                 "shasum": ""
             },
             "require": {
@@ -3653,7 +3873,7 @@
                 }
             ],
             "description": "Code Generator for Orchestra Platform",
-            "time": "2016-03-19 14:31:28"
+            "time": "2016-03-26 08:13:32"
         },
         {
             "name": "orchestra/testbench",
@@ -4199,16 +4419,16 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.0.6",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "49bc700750196c04dd6bc2c4c99cb632b893836b"
+                "reference": "7c34c9bdde4131b824086457a3145e27dba10ca1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/49bc700750196c04dd6bc2c4c99cb632b893836b",
-                "reference": "49bc700750196c04dd6bc2c4c99cb632b893836b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/7c34c9bdde4131b824086457a3145e27dba10ca1",
+                "reference": "7c34c9bdde4131b824086457a3145e27dba10ca1",
                 "shasum": ""
             },
             "require": {
@@ -4226,7 +4446,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-master": "3.1.x-dev"
                 }
             },
             "autoload": {
@@ -4251,7 +4471,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-12-08 08:47:06"
+            "time": "2016-03-24 05:58:25"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
