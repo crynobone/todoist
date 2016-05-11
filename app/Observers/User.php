@@ -2,6 +2,7 @@
 
 namespace App\Observers;
 
+use InvalidArgumentException;
 use Orchestra\Tenanti\Observer;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Model;
@@ -27,7 +28,7 @@ class User extends Observer
      */
     public function created(Model $entity)
     {
-        $this->createDatabase($entity);
+        $this->createTenantDatabase($entity);
 
         parent::created($entity);
     }
@@ -39,8 +40,23 @@ class User extends Observer
      *
      * @return mixed
      */
-    protected function createDatabase(Model $entity)
+    protected function createTenantDatabase(Model $entity)
     {
-        return $entity->getConnection()->unprepared("CREATE DATABASE `todoist_{$entity->getKey()}`");
+        $connection = $entity->getConnection();
+        $driver     = $connection->getDriverName();
+        $id         = $entity->getKey();
+
+        switch ($driver) {
+            case 'mysql':
+                $query = "CREATE DATABASE `todoist_{$id}`";
+                break;
+            case 'pgsql':
+                $query = "CREATE DATABASE todoist_{$id}";
+                break;
+            default:
+                throw new InvalidArgumentException("Database Driver [{$driver}] not supported");
+        }
+
+        return $connection->unprepared($query);
     }
 }

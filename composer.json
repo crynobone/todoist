@@ -10,7 +10,7 @@
         "orchestra/foundation": "~3.2.6",
         "orchestra/installer": "~3.2",
         "orchestra/control": "~3.2",
-        "orchestra/tenanti": "~3.2.5",
+        "orchestra/tenanti": "~3.2.7",
         "guzzlehttp/guzzle": "~6.0"
     },
     "require-dev": {
