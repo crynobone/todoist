@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cd9239685f74bd89b35e5f04771d8282",
-    "content-hash": "0039fe2be0a329b294e7b553e6dafd68",
+    "hash": "85462bef09df160adb638e4b4b5a0b1d",
+    "content-hash": "79027638b975936e6f837c4eb7016428",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2046,16 +2046,16 @@
         },
         {
             "name": "orchestra/tenanti",
-            "version": "v3.2.4",
+            "version": "v3.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/tenanti.git",
-                "reference": "130e51e8f5af1e96511c97e800f6aac45345006c"
+                "reference": "64d8552a7aa59f96443cc304ae918fd8776bfb00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/tenanti/zipball/130e51e8f5af1e96511c97e800f6aac45345006c",
-                "reference": "130e51e8f5af1e96511c97e800f6aac45345006c",
+                "url": "https://api.github.com/repos/orchestral/tenanti/zipball/64d8552a7aa59f96443cc304ae918fd8776bfb00",
+                "reference": "64d8552a7aa59f96443cc304ae918fd8776bfb00",
                 "shasum": ""
             },
             "require": {
@@ -2098,7 +2098,7 @@
                 "orchestral",
                 "schema"
             ],
-            "time": "2016-03-21 12:13:22"
+            "time": "2016-04-28 03:09:10"
         },
         {
             "name": "orchestra/translation",
